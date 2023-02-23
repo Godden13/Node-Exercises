@@ -1,0 +1,57 @@
+listening on port 8000
+listening on port 8000
+/Users/godden/Desktop/programming/NodeJS/exercise/index.js:49
+console.log(`Listening on port 8000 at ${time.getDate() + '-' + today.getMonth() + '-' + today.getFullYear() + '  ' + today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds() + '.' + today.getMilliseconds() }`);
+                                                                ^
+
+ReferenceError: today is not defined
+    at Object.<anonymous> (/Users/godden/Desktop/programming/NodeJS/exercise/index.js:49:65)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.14.1
+Listening on port 8000 at 22-1-2023  1:51:10.899
+/Users/godden/Desktop/programming/NodeJS/exercise/index.js:62
+console.log(`Listening on port 8000 for ${file} at ${time.getHours() +
+                                          ^
+
+ReferenceError: file is not defined
+    at Object.<anonymous> (/Users/godden/Desktop/programming/NodeJS/exercise/index.js:62:43)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.14.1
+Listening on port 8000 at 2:37:40 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/index.html 2:37:40 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/style.css 2:37:40 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 2:37:40 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 2:37:40 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 2:37:40 on the 22-1-2023
+Listening on port 8000 at 3:4:48 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/index.js:27
+      console.log(`Couldn't load ${file} at ${time.getHours() +
+                                   ^
+
+ReferenceError: file is not defined
+    at ReadFileContext.callback (/Users/godden/Desktop/programming/NodeJS/exercise/index.js:27:36)
+    at FSReqCallback.readFileAfterOpen [as oncomplete] (node:fs:324:13)
+
+Node.js v18.14.1
+Listening on port 8000 at 3:5:35 on the 22-1-2023
+Couldn't load /Users/godden/Desktop/programming/NodeJS/exercise/static/hello at 3:5:35 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 3:5:35 on the 22-1-2023
+Couldn't load /Users/godden/Desktop/programming/NodeJS/exercise/static/favicon.ico at 3:5:35 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 3:5:35 on the 22-1-2023
+Couldn't load /Users/godden/Desktop/programming/NodeJS/exercise/static/hello at 3:5:35 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 3:5:35 on the 22-1-2023
+Couldn't load /Users/godden/Desktop/programming/NodeJS/exercise/static/favicon.ico at 3:5:35 on the 22-1-2023
+/Users/godden/Desktop/programming/NodeJS/exercise/static/error.html 3:5:35 on the 22-1-2023
+Listening on port 8000 at 10:2:18 on the 22-1-2023
